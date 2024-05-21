@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+header li {
+    display: inline;
+}
+
+header li a {
+    color: #f0f8ff;
+    text-decoration: none;
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body > header {
+    background-color: rgb(63, 62, 62);
+    padding: 20px 0;
+    color: #f0f8ff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    height: 200px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2, .articles article { 
+    margin-bottom: 15px;
+}
+
+.articles article h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    display: inline-block;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600
+}
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: rgb(12, 75, 247);
+
+}
+
+.articles article p {
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 22px;
+}
+section h2 {
+    font-size: 30px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 10, 10%);
+}
+#sports .articles article a{
+    background-color: darkolivegreen;
+}
+#economy {
+    background-color: darkolivegreen;
+}
+#economy .articles article a {
+    background-color: rgba(138, 194, 138, 0.788);
+}
+#economy .articles article p{
+    color: #f0f8ff;
+}
+#economy h2 {
+    color: #f0f8ff;
+}
+#economy .creation-date {
+    color: #f0f8ff;
+}
+#economy h3 {
+    color: #f0f8ff;
+}
+
+#music {
+    background-color: rgb(216, 182, 141);
+}
+
+#tecnology {
+    background-color: rgb(16, 78, 78);
+}
+
+#tecnology .articles article p {
+    color: #f0f8ff;
+}
+
+#tecnology .articles article a {
+    background-color: rgb(78, 133, 133);
+}
+
+#tecnology h2 {
+    color: #f0f8ff;
+}
+
+#tecnology .creation-date {
+    color:#f0f8ff;
+}
+
+#tecnology h3 {
+    color: #f0f8ff;
+}
